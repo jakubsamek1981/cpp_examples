@@ -1,0 +1,27 @@
+#include <iostream>
+
+int main() {
+    std::cout << "Data Types Lesson 10" << std::endl;
+
+    int age = 25;
+    float height = 5.9f;
+    double salary = 50000.50;
+    char grade = 'A';
+    bool isStudent = true;
+    int64_t largeNumber = 123456789012345;
+    char name[] = "John Doe";
+    char *ptrName = name;
+
+    
+
+    std::cout << "Age: " << age << std::endl;
+    std::cout << "Height: " << height << std::endl;
+    std::cout << "Salary: " << salary << std::endl;
+    std::cout << "Grade: " << grade << std::endl;
+    std::cout << "Is Student: " << isStudent << std::endl;
+    std::cout << "Large Number: " << largeNumber << std::endl;
+
+    std::cout << "Size of int: " << sizeof(int) << " bytes" << std::endl;
+
+    return 0;
+}
