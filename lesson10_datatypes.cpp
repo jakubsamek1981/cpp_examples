@@ -1,3 +1,5 @@
+// compile with: g++ -std=c++17 lesson10_datatypes.cpp -o lesson10_datatypes
+
 #include <iostream>
 
 int main() {
