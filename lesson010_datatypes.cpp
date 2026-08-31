@@ -1,5 +1,8 @@
 // compile with: g++ -std=c++17 lesson10_datatypes.cpp -o lesson10_datatypes
 
+// compile with: g++ -Wall-std=c++17 lesson10_datatypes.cpp -o lesson10_datatypes
+//parameter -Wall: enables all compiler's warning messages
+
 #include <iostream>
 
 int main() {
